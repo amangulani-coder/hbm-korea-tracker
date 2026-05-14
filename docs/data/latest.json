@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-05-13T03:00:00Z",
+  "brief": {
+    "headline": "SK Hynix outperforms Samsung as HBM3e 12-Hi qualification flow gathers pace; KRW weakness adds tailwind to memory export earnings.",
+    "summary": "SK Hynix (+2.1%) extended its YTD outperformance vs Samsung (+0.4%) into the Korean close as TrendForce flagged tightening HBM3e 12-Hi supply ahead of GB300 ramp. USD/KRW pushed to 1,386, the highest in three weeks, providing operating leverage for both names. Micron's overnight ADR move (+1.8%) and Kioxia's relative weakness suggest the bid is concentrated in HBM-exposed names rather than broad commodity DRAM. No material DART filings since last cycle.",
+    "pair_trade_view": "Long 000660 / Short 005930 spread held its YTD widening; the HBM revenue mix gap (SK Hynix 60%+ HBM share vs Samsung 30%) is the persistent driver. Watch for any Samsung GB300 qual headline as the potential mean-reversion catalyst.",
+    "memory_cycle": {
+      "stage": "Late-cycle Up",
+      "notes": "HBM tightness extends through 2H26 on TrendForce updated capacity model; commodity DRAM contract pricing flattening but spot still firm. NAND lagging - WDC down on the session reflects this. Watch SamsungElectronics Q2 capex guide for the first signal that supply discipline is wavering."
+    },
+    "hbm_pulse": "GB300 server rack ramp at hyperscalers (per Nvidia field commentary) is pulling forward HBM3e 12-Hi demand into 2H26. SK Hynix retains qualification lead; Samsung's HBM3e qual at Nvidia remains the most-watched binary catalyst into Q2 prints. CoWoS supply is the gating factor, not HBM die supply, per TSMC's latest investor comments - relevant for understanding the bottleneck stack.",
+    "key_filings": [
+      {
+        "company": "SK Hynix",
+        "summary_en": "Quarterly business report supplement filed (auditor opinion attached). No material change vs Q1 release.",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512000456",
+        "material": false
+      },
+      {
+        "company": "Samsung Electronics",
+        "summary_en": "Director board meeting decision: dividend declaration confirmed at KRW 361/share, in line with prior guidance.",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512000891",
+        "material": false
+      }
+    ],
+    "news_pulse": [
+      {
+        "headline": "TrendForce raises 2H26 HBM3e bit-shipment forecast 8% on tighter supply",
+        "source": "TrendForce",
+        "url": "https://www.trendforce.com",
+        "implication": "Positive for SK Hynix; reinforces pricing power thesis into Q3 contract negotiations."
+      },
+      {
+        "headline": "Samsung reportedly accelerates 1c DRAM EUV tool installs at Pyeongtaek P3",
+        "source": "The Elec",
+        "url": "https://thelec.net",
+        "implication": "Supply addition concern for 2027; offset by HBM4 demand-pull."
+      },
+      {
+        "headline": "Micron raises Q4 revenue guide on stronger HBM mix",
+        "source": "Reuters",
+        "url": "https://www.reuters.com",
+        "implication": "Cross-read positive for SK Hynix/Samsung Q2 prints; confirms HBM ASP tailwind."
+      },
+      {
+        "headline": "Korean MoTIE comments on semis export support package",
+        "source": "Yonhap",
+        "url": "https://en.yna.co.kr",
+        "implication": "Limited near-term impact; signals continued policy support for capex offset."
+      }
+    ],
+    "derivatives_signal": "KOSPI 200 June futures basis neutral. USD/KRW 1y forward implying ~1,402 - consistent with sustained KRW weakness narrative supporting export earners. SamsungElectronics 60-day implied vol at 28%, in-line with 6m average; SK Hynix at 38%, elevated reflecting HBM binary catalyst pricing.",
+    "watch_for_next_3h": [
+      "Micron after-hours commentary at Bernstein conference (8pm ET)",
+      "TSMC monthly sales release (Tue night Taiwan time) for HPC mix read-through",
+      "USD/KRW intraday breach of 1,390 - would mark new 3-month high",
+      "Any DART 'Material Information' filing flag from either name",
+      "Reuters / Nikkei follow-up on Samsung HBM3e Nvidia qual status"
+    ],
+    "confidence": "medium"
+  },
+  "data": {
+    "as_of": "2026-05-13T03:00:00Z",
+    "quotes": {
+      "primary": {
+        "005930.KS": {
+          "symbol": "005930.KS", "name": "Samsung Electronics", "type": "memory_logic",
+          "price": 78400, "change": 300, "change_pct": 0.38,
+          "volume": 12450000, "prev_close": 78100, "currency": "KRW", "source": "yahoo"
+        },
+        "000660.KS": {
+          "symbol": "000660.KS", "name": "SK Hynix", "type": "memory_pure",
+          "price": 218500, "change": 4500, "change_pct": 2.10,
+          "volume": 4820000, "prev_close": 214000, "currency": "KRW", "source": "yahoo"
+        }
+      },
+      "peers": {
+        "MU":     {"symbol": "MU",     "name": "Micron",           "group": "memory",  "price": 124.30, "change":  2.15, "change_pct":  1.76, "volume": 18500000, "prev_close": 122.15},
+        "WDC":    {"symbol": "WDC",    "name": "Western Digital",  "group": "memory",  "price":  71.22, "change": -0.84, "change_pct": -1.17, "volume":  5100000, "prev_close":  72.06},
+        "285A.T": {"symbol": "285A.T", "name": "Kioxia",           "group": "memory",  "price": 2845.0, "change": -15.0, "change_pct": -0.52, "volume":  1850000, "prev_close": 2860.0},
+        "ASML":   {"symbol": "ASML",   "name": "ASML",             "group": "wfe",     "price": 968.40, "change":  4.20, "change_pct":  0.44, "volume":   980000, "prev_close": 964.20},
+        "AMAT":   {"symbol": "AMAT",   "name": "Applied Materials","group": "wfe",     "price": 218.55, "change":  1.10, "change_pct":  0.51, "volume":  3100000, "prev_close": 217.45},
+        "LRCX":   {"symbol": "LRCX",   "name": "Lam Research",     "group": "wfe",     "price":  89.74, "change":  0.42, "change_pct":  0.47, "volume":  4200000, "prev_close":  89.32},
+        "KLAC":   {"symbol": "KLAC",   "name": "KLA",              "group": "wfe",     "price": 805.20, "change":  3.80, "change_pct":  0.47, "volume":   720000, "prev_close": 801.40},
+        "8035.T": {"symbol": "8035.T", "name": "Tokyo Electron",   "group": "wfe",     "price":24850.0, "change":120.0,  "change_pct":  0.49, "volume":  1450000, "prev_close":24730.0},
+        "TSM":    {"symbol": "TSM",    "name": "TSMC",             "group": "foundry", "price": 195.40, "change":  2.10, "change_pct":  1.09, "volume": 10500000, "prev_close": 193.30},
+        "NVDA":   {"symbol": "NVDA",   "name": "Nvidia",           "group": "compute", "price": 142.85, "change":  3.15, "change_pct":  2.25, "volume": 95000000, "prev_close": 139.70}
+      },
+      "macro": {
+        "^KS11":    {"symbol": "^KS11",    "label": "KOSPI Composite",      "price": 2748.32, "change":  8.45, "change_pct":  0.31},
+        "USDKRW=X": {"symbol": "USDKRW=X", "label": "USD/KRW",              "price":  1386.4, "change":  4.20, "change_pct":  0.30},
+        "KS200=F":  {"symbol": "KS200=F",  "label": "KOSPI 200 futures",    "price":  365.40, "change":  1.20, "change_pct":  0.33}
+      },
+      "adrs": {
+        "SSNLF": {"symbol": "SSNLF", "label": "Samsung ADR (OTC)",   "price": 53.50, "change":  0.20, "change_pct":  0.38, "volume":     8500},
+        "HXSCL": {"symbol": "HXSCL", "label": "SK Hynix ADR (OTC)",  "price":156.20, "change":  3.10, "change_pct":  2.03, "volume":     2400}
+      }
+    },
+    "filings": [],
+    "memory": {
+      "source": "stub",
+      "as_of": "2026-05-13T03:00:00Z",
+      "note": "No structured memory spot feed wired; pricing context above is news-derived."
+    }
+  }
+}

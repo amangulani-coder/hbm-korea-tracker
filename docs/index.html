@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Korea Memory Pulse</title>
+  <meta name="description" content="3-hour pulse on Samsung Electronics and SK Hynix" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700;800&family=Bricolage+Grotesque:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">◢◤</span>
+      <span class="brand-name">KOREA·MEMORY·PULSE</span>
+    </div>
+    <div class="status" id="status">
+      <span class="status-item" id="market-state">SCANNING</span>
+      <span class="status-sep">·</span>
+      <span class="status-item">REFRESH <span id="last-refresh">—</span></span>
+      <span class="status-sep">·</span>
+      <span class="status-item">NEXT <span id="next-refresh">—</span></span>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO BRIEF -->
+    <section class="hero">
+      <div class="hero-label">PULSE / <span id="hero-time">—</span></div>
+      <h1 class="hero-headline" id="headline">Loading brief…</h1>
+      <p class="hero-summary" id="summary"></p>
+      <div class="hero-meta">
+        <span class="confidence" id="confidence">—</span>
+      </div>
+    </section>
+
+    <!-- PRIMARY KPIs -->
+    <section class="grid-primary">
+      <article class="ticker-card" id="card-005930">
+        <header class="ticker-head">
+          <div>
+            <div class="ticker-sym">005930.KS</div>
+            <div class="ticker-name">Samsung Electronics</div>
+          </div>
+          <div class="ticker-adr">ADR <span id="adr-005930">—</span></div>
+        </header>
+        <div class="ticker-price" id="price-005930">—</div>
+        <div class="ticker-change" id="change-005930">—</div>
+        <div class="ticker-meta">
+          <span>VOL <span id="vol-005930">—</span></span>
+          <span>PREV <span id="prev-005930">—</span></span>
+        </div>
+      </article>
+
+      <article class="ticker-card" id="card-000660">
+        <header class="ticker-head">
+          <div>
+            <div class="ticker-sym">000660.KS</div>
+            <div class="ticker-name">SK Hynix</div>
+          </div>
+          <div class="ticker-adr">ADR <span id="adr-000660">—</span></div>
+        </header>
+        <div class="ticker-price" id="price-000660">—</div>
+        <div class="ticker-change" id="change-000660">—</div>
+        <div class="ticker-meta">
+          <span>VOL <span id="vol-000660">—</span></span>
+          <span>PREV <span id="prev-000660">—</span></span>
+        </div>
+      </article>
+
+      <article class="panel panel-pair">
+        <h2 class="panel-title">PAIR · 005930 vs 000660</h2>
+        <p class="panel-body" id="pair-trade">—</p>
+      </article>
+
+      <article class="panel panel-cycle">
+        <h2 class="panel-title">MEMORY CYCLE</h2>
+        <div class="cycle-stage" id="cycle-stage">—</div>
+        <p class="panel-body" id="cycle-notes">—</p>
+      </article>
+    </section>
+
+    <!-- HBM PULSE -->
+    <section class="panel panel-wide panel-hbm">
+      <h2 class="panel-title">HBM · GB300 · COWOS</h2>
+      <p class="panel-body" id="hbm-pulse">—</p>
+    </section>
+
+    <!-- MACRO + DERIVATIVES -->
+    <section class="grid-macro">
+      <article class="panel">
+        <h2 class="panel-title">MACRO</h2>
+        <table class="micro-table" id="macro-table">
+          <tbody></tbody>
+        </table>
+      </article>
+      <article class="panel">
+        <h2 class="panel-title">DERIVATIVES SIGNAL</h2>
+        <p class="panel-body" id="derivatives">—</p>
+      </article>
+    </section>
+
+    <!-- PEERS -->
+    <section class="panel panel-wide">
+      <h2 class="panel-title">PEER COMPLEX</h2>
+      <div class="table-wrap">
+        <table class="peer-table" id="peer-table">
+          <thead>
+            <tr>
+              <th>SYM</th><th>NAME</th><th>GROUP</th>
+              <th class="num">PRICE</th><th class="num">CHG</th><th class="num">CHG%</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- FILINGS + NEWS -->
+    <section class="grid-flow">
+      <article class="panel">
+        <h2 class="panel-title">DART · KEY FILINGS</h2>
+        <ul class="flow-list" id="filings-list"><li class="muted">—</li></ul>
+      </article>
+      <article class="panel">
+        <h2 class="panel-title">NEWS PULSE</h2>
+        <ul class="flow-list" id="news-list"><li class="muted">—</li></ul>
+      </article>
+    </section>
+
+    <!-- WATCH FOR -->
+    <section class="panel panel-wide panel-watch">
+      <h2 class="panel-title">WATCH · NEXT 3H</h2>
+      <ol class="watch-list" id="watch-list"></ol>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>korea-memory-pulse · refreshes every 3h via GitHub Actions</span>
+    <span id="generation-info"></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
