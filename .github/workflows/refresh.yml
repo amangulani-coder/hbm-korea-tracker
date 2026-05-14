@@ -1,10 +1,12 @@
 name: refresh-korea-semis
 
-# Every 3 hours, cron is UTC. KR market: 00:00-06:30 UTC. PT: subtract 7-8 hours from UTC.
-# 0 */3 * * * = midnight, 3am, 6am, 9am, 12pm, 3pm, 6pm, 9pm UTC
+# Once daily, cron is UTC. KR market: 00:00-06:30 UTC.
+# 0 7 * * * = 7am UTC = right after Korea market close = 11pm PT prior day / 2am ET
+# Reduced from every-3-hours to once-daily to conserve Anthropic API credits.
+# Trigger ad-hoc via: gh workflow run refresh-korea-semis.yml
 on:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "0 7 * * *"
   workflow_dispatch:  # manual trigger button in Actions UI
 
 permissions:
