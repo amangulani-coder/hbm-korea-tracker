@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-10-18T11:52:52Z",
+  "brief": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg9ezgvc6ikWoa9HGtnpB'}",
+    "headline": "Synthesis unavailable",
+    "summary": "Raw data still available below."
+  },
+  "data": {
+    "as_of": "2026-10-18T11:52:52Z",
+    "quotes": {
+      "primary": {
+        "005930.KS": {
+          "symbol": "005930.KS",
+          "price": null,
+          "name": "Samsung Electronics",
+          "type": "memory_logic"
+        },
+        "000660.KS": {
+          "symbol": "000660.KS",
+          "price": null,
+          "name": "SK Hynix",
+          "type": "memory_pure"
+        }
+      },
+      "peers": {
+        "MU": {
+          "symbol": "MU",
+          "price": null,
+          "name": "Micron",
+          "group": "memory"
+        },
+        "WDC": {
+          "symbol": "WDC",
+          "price": null,
+          "name": "Western Digital",
+          "group": "memory"
+        },
+        "285A.T": {
+          "symbol": "285A.T",
+          "price": null,
+          "name": "Kioxia",
+          "group": "memory"
+        },
+        "ASML": {
+          "symbol": "ASML",
+          "price": null,
+          "name": "ASML",
+          "group": "wfe"
+        },
+        "AMAT": {
+          "symbol": "AMAT",
+          "price": null,
+          "name": "Applied Materials",
+          "group": "wfe"
+        },
+        "LRCX": {
+          "symbol": "LRCX",
+          "price": null,
+          "name": "Lam Research",
+          "group": "wfe"
+        },
+        "KLAC": {
+          "symbol": "KLAC",
+          "price": null,
+          "name": "KLA",
+          "group": "wfe"
+        },
+        "8035.T": {
+          "symbol": "8035.T",
+          "price": null,
+          "name": "Tokyo Electron",
+          "group": "wfe"
+        },
+        "TSM": {
+          "symbol": "TSM",
+          "price": null,
+          "name": "TSMC",
+          "group": "foundry"
+        },
+        "NVDA": {
+          "symbol": "NVDA",
+          "price": null,
+          "name": "Nvidia",
+          "group": "compute"
+        }
+      },
+      "macro": {
+        "^KS11": {
+          "symbol": "^KS11",
+          "price": null,
+          "label": "KOSPI Composite"
+        },
+        "USDKRW=X": {
+          "symbol": "USDKRW=X",
+          "price": null,
+          "label": "USD/KRW"
+        },
+        "KS200=F": {
+          "symbol": "KS200=F",
+          "price": null,
+          "label": "KOSPI 200 futures"
+        }
+      },
+      "adrs": {
+        "SSNLF": {
+          "symbol": "SSNLF",
+          "price": null,
+          "label": "Samsung ADR (OTC)"
+        },
+        "HXSCL": {
+          "symbol": "HXSCL",
+          "price": null,
+          "label": "SK Hynix ADR (OTC)"
+        }
+      }
+    },
+    "filings": [],
+    "memory": {
+      "source": "stub",
+      "as_of": "2026-10-18T11:52:53.066525+00:00",
+      "note": "No structured memory spot feed wired. Pricing context will be extracted from news flow by the synthesizer. Drop a JSON file at docs/data/memory_manual.json to override (keys: ddr5_8gb, ddr4_8gb, nand_512gb, hbm3e_premium, dxi_index, with values + as_of).",
+      "metrics": {}
+    }
+  }
+}
