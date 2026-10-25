@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-24T11:43:09Z",
+  "generated_at": "2026-10-25T12:12:42Z",
   "brief": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgM17B2qCPmjQQwNgZTTQ'}",
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgNwAngKthXr3XV6CmBZL'}",
     "headline": "Synthesis unavailable",
     "summary": "Raw data still available below."
   },
   "data": {
-    "as_of": "2026-10-24T11:43:09Z",
+    "as_of": "2026-10-25T12:12:42Z",
     "quotes": {
       "primary": {
         "005930.KS": {
@@ -117,7 +117,7 @@
     "filings": [],
     "memory": {
       "source": "stub",
-      "as_of": "2026-10-24T11:43:09.617704+00:00",
+      "as_of": "2026-10-25T12:12:42.687069+00:00",
       "note": "No structured memory spot feed wired. Pricing context will be extracted from news flow by the synthesizer. Drop a JSON file at docs/data/memory_manual.json to override (keys: ddr5_8gb, ddr4_8gb, nand_512gb, hbm3e_premium, dxi_index, with values + as_of).",
       "metrics": {}
     }
